@@ -1,0 +1,152 @@
+
+body{
+   background:url(../images/body_bg.png) repeat-y;
+   background-size:100%; 
+}
+.navbar-brand{
+  padding: 0 15%;
+
+}
+.navbar-brand img{
+   float: left;
+   width: auto;
+  }
+.carousel{
+  height: 100%;
+  overflow: hidden;
+}
+.carouse .item{
+  height:100%;
+  width: 100%;
+
+}
+.carousel .item img {
+   width : 100%;
+   height: auto;
+}
+.carousel-caption {
+    z-index: 10;
+}
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.8;
+}
+#showProduct{
+  background: url(../images/nav_bg.gif);
+}
+#showProduct h4{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+#showProduct .text-center,#showProduct small{
+    color: #fff;
+}
+#bs-example-navbar-collapse-1{
+  z-index: 40;
+}
+.big_logo{
+  margin:30px auto;
+}
+.big_logo img{
+  width: 15%;
+  height: auto;
+}
+.titles{
+  font-size: 240%;
+  margin-bottom: 30px;
+}
+.panel-title{
+  color: #fff;
+  font-weight: 800;
+}
+#listss{
+  list-style: none;
+  z-index: 40;
+}
+#categories{
+    padding: 2% 5%;
+    margin-top:5%;
+    margin-bottom: 4%;
+    border-width: 4px 12px;
+    border-style: solid;
+    border-color:#000;
+    border-image-source:url(../images/nav_bg.gif);
+    border-image-repeat: repeat stretch;
+    border-image-slice: 1 9;
+}
+#categories img{
+  display: block;
+  box-shadow:  0 0 15px 15px #fff;
+  width: 72%;
+  height: auto;
+  margin-bottom:20%;
+  margin-top: 10%
+}
+#categories img:hover{
+    transform:rotateY(360deg);
+    -webkit-transform:rotateY(360deg); /* Safari and Chrome */
+    -moz-transform:rotateY(360deg); /* Firefox */
+    transition:transform 1s;
+    -moz-transition:transform 1s; /* Firefox 4 */
+    -webkit-transition:transform 2s;  /* Safari 和 Chrome */
+    -o-transition:transform 1s; /* Opera */
+}
+#categories a{
+    color: #84220B;
+}
+
+#categories h3{
+  font-size: 180%;
+}
+#add{
+  width: 100%;
+}
+
+#add .col-xs-4{
+  position: relative;
+ 
+}
+#add .col-xs-4 img{
+  width: 100%;
+  height: 100%;
+}
+.add_words{
+  position: absolute;
+  right: 20%;
+  bottom: 2%;
+  z-index: 12;
+}
+#media .media_left{
+  width: 100%;
+  height: 100%;
+}
+#media .media_right{
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 640px){
+  .big_logo{
+    margin:10px auto;
+  }
+  .titles{
+    font-size: 150%;
+    margin-bottom: 10px;
+  }
+  #categories h3{
+    font-size: 100%;
+  }
+  #categories img{
+    display: block;
+    box-shadow:  0 0 15px 15px #fff;
+    width: 48%;
+    height: auto;
+    margin-bottom:8%;
+  }
+  #categories .col-xs-4 {
+    margin-bottom: 10px;
+  }
+  #categories{
+      padding: 3% 0 0 12%;
+  }
+}
+}

@@ -1,0 +1,44 @@
+
+body{
+   background:url(../images/body_bg.png) repeat-y;
+   background-size:100%; 
+}
+.navbar-brand{
+	padding: 0 15%;
+
+}
+.navbar-brand img{
+   float: left;
+   width: auto;
+   height: 100%;
+}
+.carousel{
+	height: 100%;
+	overflow: hidden;
+}
+.carouse .item{
+	height:100%;
+	width: 100%;
+
+}
+.carousel .item img {
+   width : 100%;
+   height: auto;
+}
+.carousel-caption {
+    z-index: 10;
+}
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.8;
+}
+#showProduct{
+	background: url(../images/nav_bg.gif);
+}
+#showProduct h4{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+#showProduct .text-center,#showProduct small{
+    color: #fff;
+}
